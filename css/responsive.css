@@ -1,0 +1,155 @@
+@media only screen and (max-width: 1200px){
+    .logo a{
+        margin-left: 1.5rem;
+    }
+    .menu-content{
+        margin-right: 1.5rem;
+    }
+}
+@media only screen and (max-width: 991px){
+    .counter-single-div{
+        margin-bottom: 1rem;
+    }
+    .header-body{
+        margin-top: 10rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    .header{
+        height: 70vh;
+    }
+    .mobile-menu span{
+        display: block;
+    }
+    section{
+        padding: 3rem 0;
+    }
+    .nav-content{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .logo{
+        width: 50%;
+    }
+    .logo a{
+        display: flex;
+        justify-content: right;
+    }
+    .logo a img{
+        margin-right: 1.5rem;
+    }
+    .menu-content{
+        display: none;
+    }
+    .about-p, .portfolio-p, .contact-p{
+        width: 90%;
+    } 
+    .about-body{
+        flex-direction: column;
+    }
+    .about-left-div img{
+        width: 50%;
+    }
+    .social-link{
+        text-align: center;
+    }
+    .social-icon{
+        justify-content: center;
+    }
+    .skill-div{
+        flex-direction: column-reverse;
+    }
+    .skill-left-div{
+        margin-top: 2rem;
+        width: 100%;
+    }
+    .skill-right-div{
+        width: 90%;
+        margin: 1rem auto;
+    }
+    .counter-single-div{
+        width: 50%;
+    }
+    .service-box{
+        width: 80%;
+        margin: 1rem auto;
+    }
+    .thumbnails-div{
+        width: 50%;
+    }
+    .slider-p{
+        width: 95%;
+    }
+    .form-first-div{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 576px){
+    .about-p, .portfolio-p, .contact-p{
+        width: 100%;
+    } 
+    .about-left-div img{
+        width: 50%;
+    }
+    .skill-left-div img{
+        width: 40%;
+    }
+    .counter-single-div{
+        width: 80%;
+        margin: 1rem auto;
+    }
+    .service-box{
+        width: 80%;
+        margin: 1rem auto;
+    }
+    .service-singlediv div h2{
+        font-size: 2rem;
+    }
+    .thumbnails-div{
+        width: 90%;
+        margin: 1rem auto;
+    }
+    .slider-pic{
+        width: 8rem;
+    }
+    .slider-p{
+        width: 100%;
+    }
+    .form-first-div{
+        width: 90%;
+        margin: 1rem auto;
+    }
+    .textarea{
+        width: 90%;
+        margin: 1rem auto;
+    }
+}
+@media only screen and (max-width: 480px){
+    .header-h1{
+        font-size: 3.2rem;
+    }
+    .header-h3{
+        font-size: 2.4rem;
+    }
+    .about-h2 , .skill-head-h2 , .skill-h2, .service-h2, .portfolio-h2, .contact-h2, .testimonial-h2{
+        font-size: 2.8rem;
+    }
+    .skill-h3, .skill-left-div input{
+        font-size: 2rem;
+    }
+    .counter-single-div{
+        width: 90%;
+    }
+    .service-box{
+        width: 90%;
+    }
+    .slider-h3{
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+}
+@media only screen and (max-width: 300px){
+   .btn-filter{
+       margin-top: 1rem;
+   }
+}
